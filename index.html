@@ -18,20 +18,15 @@
 <body>
     <div>
         
-
-        
-        
-
-
         <div style="padding-top: 3vh;padding-bottom: 3vh">
 
             <div class="row">
-                <div class="col-lg-8 col-2"></div>
-                <div class="col-lg-2 col-4">
+                <div class="col-lg-8 col-2 col-md-6"></div>
+                <div class="col-lg-2 col-4 col-md-3"">
                     <button type="button" style="background-color: white;border-color:white ;color:grey;"
                         class="btn btn-lg btn-primary" onclick="articles()">Articles</button>
                 </div>
-                <div class="col-lg-2 col-4">
+                <div class="col-lg-2 col-4 col-md-3">
                     <button type="button"
                         style="border-width: 0.4vh;border-radius: 25px;background-color: white;border-color:#1A76F2 ;color: #1A76F2;"
                         class="btn btn-lg btn-primary" onclick="contact()">Contact me!</button>
@@ -65,11 +60,11 @@
 
 
         <div class="row no-gutters">
-            <div class="col-2 col-lg-3">
+            <div class="col-2 col-lg-3 col-md-1">
 
 
             </div>
-            <div class="col-8 col-lg-6">
+            <div class="col-8 col-lg-6 col-md-10">
                 <img class="center" src="images/andresb.jpeg" id="picture">
 
                 <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;">Software Engineer
@@ -79,7 +74,7 @@
                     and collaborative team player with strong communication and analytical abilities.</p>
             </div>
 
-            <div class="col-2 col-lg-3">
+            <div class="col-2 col-lg-3 col-md-1">
 
             </div>
 
@@ -91,13 +86,13 @@
 
     <div style="padding-top: 10vh;">
         <div class="row" id="recipient_quote">
-            <div class="col-2">
+            <div class="col-2 col-md-2">
 
             </div>
-            <div class="col-8">
+            <div class="col-8 col-md-8">
                 <img id="quote" src="./images/pc_back.png">
             </div>
-            <div class="col-2">
+            <div class="col-2 col-md-2">
 
             </div>
         </div>
@@ -138,9 +133,9 @@
     <div id="cards_landscape_wrap-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2"></div>
+                <div class="col-lg-2 "></div>
 
-                <div class="col-lg-4 col-12" style="padding-top: 2vh;">
+                <div class="col-lg-4 col-12 col-md-6" style="padding-top: 2vh;">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
@@ -334,7 +329,7 @@
                 </div>
                 <br>
                 <!-- Front-End Section -->
-                <div class="col-lg-4 col-12" style="padding-top: 2vh;">
+                <div class="col-lg-4 col-12 col-md-6" style="padding-top: 2vh;">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
@@ -516,7 +511,7 @@
                     </a>
                 </div>
 
-                <div class="col-lg-2"></div>
+                <div class="col-lg-2 "></div>
 
             </div>
         </div>
@@ -576,7 +571,7 @@
                         </div>
                     </div>
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="http://localhost:63342/PortfolioWeb/thanks.html">
+                    <input type="hidden" name="_next" value="https://abaron10.github.io/portfolio/thanks.html">
                     <div class="form-group">
                         <textarea placeholder="Your Message" style="resize: none" class="form-control" name="message" rows="10" required></textarea>
                     </div>
@@ -603,20 +598,20 @@
     <br>
 
     <div class="row ">
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-1">
 
         </div>
 
-        <div class="col-lg-4" style="padding-top: 5vh;">
+        <div class="col-lg-4 col-md-5" style="padding-top: 5vh;">
             <div class="center" >
                 <h2 id="subtitle-contact" >Social Media</h2>
-                <img style="width: 7vh;" onclick="linkedin()" src="./images/linkedin.png">
-                <img style="width: 10vh;" onclick="git()" src="./images/git.png">
+                <img id="linked"  onclick="linkedin()" src="./images/linkedin.png">
+                <img id="git" style="width: 10vh;" onclick="git()" src="./images/git.png">
             </div>
 
         </div>
         <br>
-        <div class="col-lg-4" style="padding-top: 5vh;">
+        <div class="col-lg-4 col-md-5" style="padding-top: 5vh;">
             <div class="center" >
                 <h2 id="subtitle-contact" >Curriculum Vitae</h2>
                 <img style="width: 10vh;" onclick="download()" src="./images/download.png">
@@ -624,7 +619,7 @@
             </div>
 
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-1">
 
         </div>
 
@@ -647,7 +642,7 @@
     <hr>
     <div class="center">
 
-        <p class="center" style="color: darkgray;">This page was designed and created with the following technologies:</p>
+        <p class="center" id="endmsg" style="color: darkgray;">This page was designed and created with the following technologies:</p>
         <img class="center" src="./images/logos.png">
 
     </div>

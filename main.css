@@ -1,5 +1,7 @@
 
-@media screen and (min-width: 601px) {
+
+
+@media screen and (min-width: 601px) and (max-device-width: 767px) {
     .main_title{
     
         font-size: 5vh;
@@ -45,6 +47,9 @@
       color: gray;
       font-size: 4vh;;
    }
+   #linked{
+    width: 7vh;
+  }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -91,6 +96,9 @@
     color: gray;
     font-size: 2vh;;
  }
+ #linked{
+  width: 4vh;
+}
   }
 
 
