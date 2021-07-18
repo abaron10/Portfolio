@@ -124,7 +124,7 @@
         <div class="col-8 col-lg-6">
            
 
-            <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;">I am a person passionate about learning new things, so I am constantly growing, for now I am happy to have learned and worked with:</p>
+            <p style="text-align: justify;padding-top: 4vh;font-size: 2.5vh;color: darkgray;">I am a person passionate about learning new things, so I am constantly growing, for now I am happy to have learned and worked with:</p>
         </div>
 
         <div class="col-2 col-lg-3">
@@ -140,7 +140,7 @@
             <div class="row">
                 <div class="col-lg-2"></div>
 
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12" style="padding-top: 2vh;">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
@@ -334,7 +334,7 @@
                 </div>
                 <br>
                 <!-- Front-End Section -->
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12" style="padding-top: 2vh;">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
@@ -551,30 +551,96 @@
         </div>
     </div>
     <hr>
+    <br>
+    <p class="center" style="font-size: 2.5vh;color: darkgray;">Let's design, imagine and create the next big project!</p>
+    
+    <div class="row">
+        <div class="col-lg-2 col-1">
 
-    <div class="container">
-        <h1>FormSubmit Demo</h1>
-        <form target="_blank" action="https://formsubmit.co/af.baron10@uniandes.edu.co" method="POST">
-            <div class="form-group">
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+
+        <div class="col-lg-8 col-10">
+            <div class="container">
+            
+                <form target="_blank" action="https://formsubmit.co/af.baron10@uniandes.edu.co" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <br>
+                            <div class="col">
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                            <br>
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://localhost:63342/PortfolioWeb/thanks.html">
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" style="resize: none" class="form-control" name="message" rows="10" required></textarea>
                     </div>
-                </div>
+                    <button type="submit" style="float: right;" class="btn btn-primary">Send</button>
+                </form>
             </div>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="http://localhost:63342/PortfolioWeb/thanks.html">
-            <div class="form-group">
-                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-            </div>
-            <button type="submit"  class="btn btn-lg btn-dark btn-block">Submit Form</button>
-        </form>
+            <br>
+            <br>
+            <br>
+            
+
+            
+        </div>
+
+        <div class="col-lg-2 col-1">
+
+        </div>
+
+
     </div>
 
+
+    <br>
+    <br>
+
+    <div class="row ">
+        <div class="col-lg-2">
+
+        </div>
+
+        <div class="col-lg-4" style="padding-top: 5vh;">
+            <div class="center" >
+                <h2 id="subtitle-contact" >Social Media</h2>
+                <img style="width: 7vh;" onclick="linkedin()" src="./images/linkedin.png">
+                <img style="width: 10vh;" onclick="git()" src="./images/git.png">
+            </div>
+
+        </div>
+        <br>
+        <div class="col-lg-4" style="padding-top: 5vh;">
+            <div class="center" >
+                <h2 id="subtitle-contact" >Curriculum Vitae</h2>
+                <img style="width: 10vh;" onclick="download()" src="./images/download.png">
+               
+            </div>
+
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
     <img src="./images/dream.png" class="center-dream">
+  
+
+   
+
+    
+   
 
     
 
@@ -585,6 +651,7 @@
         <img class="center" src="./images/logos.png">
 
     </div>
+    
 </body>
 
 </html>
