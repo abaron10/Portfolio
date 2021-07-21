@@ -12,23 +12,26 @@
     <link rel="stylesheet" href="./main.css">
     <script src="main.js"></script>
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>Andrés Barón portfolio</title>
 </head>
 
 <body>
     <div>
+        
         
         <div style="padding-top: 3vh;padding-bottom: 3vh">
 
             <div class="row">
                 <div class="col-lg-8 col-2 col-md-6"></div>
                 <div class="col-lg-2 col-4 col-md-3"">
-                    <button type="button" style="background-color: white;border-color:white ;color:grey;"
+                    <button type="button" style="background: rgba(0,0,0,0);border-color:rgba(0,0,0,0) ;color:grey;"
                         class="btn btn-lg btn-primary" onclick="articles()">Articles</button>
                 </div>
                 <div class="col-lg-2 col-4 col-md-3">
+
+                
                     <button type="button"
-                        style="border-width: 0.4vh;border-radius: 25px;background-color: white;border-color:#1A76F2 ;color: #1A76F2;"
+                        style="border-radius: 25px"
                         class="btn btn-lg btn-primary" onclick="contact()">Contact me!</button>
                 </div>
             </div>
@@ -40,9 +43,10 @@
         <br>
 
 
-        <div style="padding-top: 5vh;padding-bottom: 15px;" class="center">
-            <p class="main_title">Full Stack developer & Master in Software Engineering Student</p>
-
+        <div style="padding-top: 5vh;padding-bottom: 15px;"  class="center">
+           
+            <div id = "typed" class = "typed"></div>
+            <hr>
         </div>
         <br>
 
@@ -56,7 +60,7 @@
                             src="images/about2.png"></span>About me:</h2>
             </div>
         </div>
-        <hr>
+ 
 
 
         <div class="row no-gutters">
@@ -67,11 +71,7 @@
             <div class="col-8 col-lg-6 col-md-10">
                 <img class="center" src="images/andresb.jpeg" id="picture">
 
-                <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;">Software Engineer
-                    dedicated to improving skills through hands-on learning and development work. Adept at using
-                    HTML5, JavaScript and other programming languages such as Python and C# to produce clean code.
-                    Well-organized
-                    and collaborative team player with strong communication and analytical abilities.</p>
+                <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;">Hi there! My name is Andrés and I am a Forward-thinking Engineer with background working productively in dynamic environments. I am fluent in a variety of programming languages used to develop big software proyects. Proud team player focused on achieving project objectives with speed and accuracy.</p>
             </div>
 
             <div class="col-2 col-lg-3 col-md-1">
@@ -79,6 +79,9 @@
             </div>
 
         </div>
+        <br>
+        <br>
+        <img src="./images/dream.png" class="center-dream">
     </div>
 
 
@@ -106,11 +109,11 @@
 
         </div>
         <div class="col-lg-11">
-            <h2 id="subtitle"><span><img style="width: 5vh;padding-bottom: 1vh;padding-left: 2vh;" src="images/tool.png"></span>My
+            <h2 id="subtitle"><span><img style="width: 5vh;padding: 1vh;" src="images/tool.png"></span>My
                 Habilities:</h2>
         </div>
     </div>
-    <hr>
+
     <div class="row no-gutters">
         <div class="col-2 col-lg-3">
 
@@ -133,9 +136,9 @@
     <div id="cards_landscape_wrap-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 "></div>
+                <div class="col-lg-1"></div>
 
-                <div class="col-lg-4 col-12 col-md-6" style="padding-top: 2vh;">
+                <div class="col-lg-5 col-12 col-md-6" style="padding-top: 2vh;">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
@@ -145,12 +148,12 @@
                                 <div class="text-container">
                                     <h6>Back-End</h6>
                                     <br>
-                                    <h7 style="color: gray;">Languages</h7>
+                                    <h5 style="color: gray;">Languages</h5>
                                     <hr style="color: gray;">
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">Java</h7>
+                                            <h5 style="color: darkgray;">Java</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -165,7 +168,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">C#</h7>
+                                            <h5 style="color: darkgray;">C#</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -180,7 +183,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">Python</h7>
+                                            <h5 style="color: darkgray;">Python</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -195,7 +198,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">SQL</h7>
+                                            <h5 style="color: darkgray;">SQL</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -209,12 +212,12 @@
                                     </div>
                                     <br>
 
-                                    <h7 style="color: gray;">Frameworks</h7>
+                                    <h5 style="color: gray;">Frameworks</h5>
                                     <hr style="color: gray;">
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">Spring</h8>
+                                            <h5 style="color: darkgray;">Spring</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -229,7 +232,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h10 style="color: darkgray;font-size: 13px;">ADO.NET</h10>
+                                            <h5 style="color: darkgray;">ADO.NET</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -244,7 +247,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">Flask</h7>
+                                            <h5 style="color: darkgray;">Flask</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -258,12 +261,12 @@
                                     </div>
 
 
-                                    <h7 style="color: gray;">Databases</h7>
+                                    <h5 style="color: gray;">Databases</h5>
                                     <hr style="color: gray;">
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">MySQL</h8>
+                                            <h5 style="color: darkgray;">MySQL</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -278,7 +281,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h10 style="color: darkgray;font-size: 13px;">MongoDB</h10>
+                                            <h5 style="color: darkgray;">MongoDB</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -293,7 +296,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;font-size: 11px;">Postgress</h7>
+                                            <h5 style="color: darkgray;">Postgres</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -308,7 +311,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;font-size: 12px;">GraphQL</h7>
+                                            <h5 style="color: darkgray">GraphQL</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -329,7 +332,7 @@
                 </div>
                 <br>
                 <!-- Front-End Section -->
-                <div class="col-lg-4 col-12 col-md-6" style="padding-top: 2vh;">
+                <div class="col-lg-5 col-12 col-md-6" style="padding-top: 2vh;">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
@@ -339,14 +342,14 @@
                                 <div class="text-container">
                                     <h6>Front-End</h6>
                                     <br>
-                                    <h7 style="color: gray;">Languages</h7>
+                                    <h5 style="color: gray;">Languages</h5>
                                     <hr style="color: gray;">
 
                                     <div class="row">
-                                        <div class="col-3">
-                                            <h8 style="color: darkgray;">HTML</h7>
+                                        <div class="col-lg-3 col-5">
+                                            <h5 style="color: darkgray;">HTML</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-lg-9 col-7" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="99"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:99%;background-color: cadetblue;">
@@ -358,10 +361,10 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-3">
-                                            <h8 style="color: darkgray;">CSS</h7>
+                                        <div class="col-lg-3 col-5">
+                                            <h5 style="color: darkgray;">CSS</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-lg-9 col-7" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="95"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:95%;background-color: cadetblue;">
@@ -373,10 +376,10 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-3" >
-                                            <h8 style="color: darkgray;font-size: 11px;">JavaScript</h7>
+                                        <div class="col-5 col-lg-3" >
+                                            <h5 style="color: darkgray;">JavaScript</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-7 col-lg-9" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="94"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:94%;background-color: cadetblue;">
@@ -387,17 +390,32 @@
 
                                     </div>
 
+                                    <div class="row">
+                                        <div class="col-5 col-lg-3" >
+                                            <h5 style="color: darkgray;">TypeScript</h5>
+                                        </div>
+                                        <div class="col-7 col-lg-9" style="padding: 0.5vh;">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100" style="width:80%;background-color: cadetblue;">
+                                                    <span class="sr-only">80%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
                                     
                                     <br>
 
-                                    <h7 style="color: gray;">Frameworks</h7>
+                                    <h5 style="color: gray;">Frameworks</h5>
                                     <hr style="color: gray;">
 
                                     <div class="row">
-                                        <div class="col-3">
-                                            <h8 style="color: darkgray;">Angular</h8>
+                                        <div class="col-lg-3 col-5">
+                                            <h5 style="color: darkgray;">Angular</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-lg-9 col-7" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:75%;background-color: cadetblue;">
@@ -409,10 +427,10 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-3">
-                                            <h10 style="color: darkgray;font-size: 13px;">Vue JS</h10>
+                                        <div class="col-lg-3 col-5">
+                                            <h5 style="color: darkgray;">Vue JS</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-lg-9 col-7" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="87"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:87%;background-color: cadetblue;">
@@ -424,10 +442,10 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-3">
-                                            <h8 style="color: darkgray;font-size: 12px;">Bootstrap</h7>
+                                        <div class="col-lg-3 col-5">
+                                            <h5 style="color: darkgray">Bootstrap</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-lg-9 col-7" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="93"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:93%;background-color: cadetblue;">
@@ -439,10 +457,10 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-3">
-                                            <h8 style="color: darkgray;font-size: 12px;">JQuery</h7>
+                                        <div class="col-lg-3 col-5">
+                                            <h5 style="color: darkgray;">JQuery</h5>
                                         </div>
-                                        <div class="col-9" style="padding: 0.5vh;">
+                                        <div class="col-lg-9 col-7" style="padding: 0.5vh;">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="53"
                                                     aria-valuemin="0" aria-valuemax="100" style="width:53%;background-color: cadetblue;">
@@ -454,12 +472,12 @@
                                     </div>
                                     <br>
 
-                                    <h7 style="color: gray;">Tools</h7>
+                                    <h5 style="color: gray;">Tools</h5>
                                     <hr style="color: gray;">
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">Atom</h8>
+                                            <h5 style="color: darkgray;">Atom</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -474,7 +492,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h10 style="color: darkgray;font-size: 13px;">VsCode</h10>
+                                            <h5 style="color: darkgray;font-size: 13px;">VsCode</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -489,7 +507,7 @@
 
                                     <div class="row">
                                         <div class="col-3">
-                                            <h8 style="color: darkgray;">IntelliJ</h7>
+                                            <h5 style="color: darkgray;">IntelliJ</h5>
                                         </div>
                                         <div class="col-9" style="padding: 0.5vh;">
                                             <div class="progress">
@@ -511,7 +529,7 @@
                     </a>
                 </div>
 
-                <div class="col-lg-2 "></div>
+                <div class="col-lg-1 "></div>
 
             </div>
         </div>
@@ -533,67 +551,178 @@
 
     </div>
 
-    <img src="./images/agile.png" class="center">
+    <img src="./images/agile.png"  class="center-scrum">
+    <div class="row no-gutters">
+        <div class="col-2 col-lg-3">
 
-    <div class="row">
+
+        </div>
+        <div class="col-8 col-lg-6">
+ 
+
+            <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;">In my opinion with the division of roles and tasks efficiently, this agile methodology helps us work successfully on a project.
+
+                The “product owner” and the “team” are complemented by the SCRUM Master, a resource that helps and supports the mission. The possibility of appreciating the work’s progress offers a guarantee that the process will be transparent and by the established.</p>
+        </div>
+
+        <div class="col-2 col-lg-3">
+
+        </div>
+
+    </div>
+    <br>
+    
+
+    <img src="./images/certificate.png" class="center-certificate">
+
+    <div class="row" style="padding-top: 8vh;">
 
         <div class="col-lg-1">
 
         </div>
         <div class="col-lg-11">
-            <h2 id="subtitle-contact"><span><img style="width: 4vh;padding-bottom: 1vh;"
-                        src="images/about2.png"></span>Contact me:</h2>
+            <h2 id="subtitle"><span><img style="width: 5vh;padding: 1vh;"
+                        src="images/person.png"></span>Expertise:</h2>
         </div>
     </div>
-    <hr>
-    <br>
-    <p class="center" style="font-size: 2.5vh;color: darkgray;">Let's design, imagine and create the next big project!</p>
-    
-    <div class="row">
-        <div class="col-lg-2 col-1">
 
+    <div class="row" style="padding-top: 3vh;">
+        <div class="col-lg-6" >
+            <img src="./images/exper2.png" class="center-exp">
         </div>
 
-        <div class="col-lg-8 col-10">
-            <div class="container">
-            
-                <form target="_blank" action="https://formsubmit.co/af.baron10@uniandes.edu.co" method="POST">
-                    <div class="form-group">
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                            </div>
-                            <br>
-                            <div class="col">
-                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                            </div>
-                            <br>
-                        </div>
-                    </div>
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://abaron10.github.io/portfolio/thanks.html">
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" style="resize: none" class="form-control" name="message" rows="10" required></textarea>
-                    </div>
-                    <button type="submit" style="float: right;" class="btn btn-primary">Send</button>
-                </form>
+        <div class="col-lg-6">
+            <div class="row">
+            <div class="col-1">
+
             </div>
-            <br>
-            <br>
-            <br>
-            
+            <div class="col-10">
+                <ul>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                             Software Development LifeCycle</p>
 
-            
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                             Application Development</p>
+
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                             Service Oriented Architecture (SOA)</p>
+
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                            B2B integrations</p>
+
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                             REST API's Design</p>
+
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                            Relational Databases design</p>
+
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                            Problem Solving and Logical Thinking</p>
+              
+                    </li>
+                    <li>
+                        <p style="text-align: justify;padding-top: 3vh;font-size: 2.5vh;color: darkgray;"> 
+                            Object-Oriented Design (OOD)</p>
+
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-1">
+
+            </div>
+
+            </div>
+
         </div>
 
-        <div class="col-lg-2 col-1">
+    </div>
+
+    <div class="row" style="padding-top: 10vh;">
+
+        <div class="col-lg-1">
 
         </div>
+        <div class="col-lg-11">
+            <h2 id="subtitle"><span><img style="width: 5vh;padding: 1vh;"
+                        src="images/message.png"></span>Contact me:</h2>
+        </div>
+    </div>
+  
+  
+    <div style="background-color: grey;">
+        <br>
+        <p class="center" style="font-size: 2.5vh;color: white;">Let's design, imagine and create the next big project!</p>
+    
+        <div class="row" >
+            <div class="col-lg-2 col-1">
+    
+            </div>
+    
+            <div class="col-lg-8 col-10">
+                <div class="container">
+                
+                    <form target="_blank" action="https://formsubmit.co/af.baron10@uniandes.edu.co" method="POST">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <br>
+                                <div class="col">
+                                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://abaron10.github.io/portfolio/thanks.html">
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" style="resize: none" class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <br>
 
+                        <div style="float: right;" class="wrap">
+                            <button type="submit" class="button">Send</button>
+                        </div>
+                        
+            
+                    </form>
+                </div>
+                <br>
+                <br>
+                <br>
+                
+    
+                
+            </div>
+    
+            <div class="col-lg-2 col-1">
+    
+            </div>
+    
+    
+        </div>
 
     </div>
 
 
+
+    <br>
+    <br>
     <br>
     <br>
 
@@ -606,7 +735,7 @@
             <div class="center" >
                 <h2 id="subtitle-contact" >Social Media</h2>
                 <img style="width: 7vh;" onclick="linkedin()" src="./images/linkedin.png">
-                <img style="width: 10vh;" onclick="git()" src="./images/git.png">
+                <img style="width: 11vh;" onclick="git()" src="./images/git.png">
             </div>
 
         </div>
@@ -629,23 +758,17 @@
     <br>
     <br>
 
-    <img src="./images/dream.png" class="center-dream">
+    
   
 
    
-
+    
     
    
 
     
 
-    <hr>
-    <div class="center">
 
-        <p class="center" id="endmsg" style="color: darkgray;">This page was designed and created with the following technologies:</p>
-        <img class="center" src="./images/logos.png">
-
-    </div>
     
 </body>
 

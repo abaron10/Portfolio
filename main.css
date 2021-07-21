@@ -1,24 +1,61 @@
 
 
-
+body{
+  background-image: url(./images/wallpaper.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%; 
+}
 @media screen and (min-width: 601px){
-    .main_title{
-    
-        font-size: 5vh;
-        font-weight: bold;
-        font-family:lucida grande,tahoma,verdana,arial,sans-serif;
-        
-    }
+  .typed {
+  
+    font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+}
+.center-exp{
+  width: 70vh; 
+  margin: auto;    
+  display: block;
+  padding-top: 10%;
+
+}
+
+.typed::after{
+    content: "|";
+    font-size: 150%;
+    line-height: 30px;
+    animation: blink .75s step-end infinite;
+}
     #picture{
         border-radius: 50%;
         width: 30vh;
 
+    }
+
+    .center-certificate {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60vh;
+      
+      text-align: center;
     }
     .center-dream {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 60vh;
+      
+      text-align: center;
+    }
+    .center-scrum {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30vh;
       
       text-align: center;
     }
@@ -32,6 +69,16 @@
         text-align: center;
 
     }
+    #quote-exp{
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+      text-align: center;
+      background-size: 100% 100%;
+
+  }
 
     #recipient_quote{
         background-color:#6B878D; 
@@ -54,17 +101,56 @@
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
-    .main_title{
-        font-family: Allianz Sans;
-        font-size: 3vh;
-        font-weight: bold;
-        
-    }
+    .typed {
+  
+      font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+      font-size: 3vh;
+      font-weight: bold;
+  }
+  
+  .typed::after{
+      content: "|";
+      font-size: 150%;
+      line-height: 30px;
+      animation: blink .75s step-end infinite;
+  }
     #picture{
         border-radius: 50%;
         width: 15vh;
 
     }
+    .center-certificate {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30vh;
+      
+      text-align: center;
+    }
+    .center-scrum {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20vh;
+      
+      text-align: center;
+    }
+    .center-exp{
+      width: 40vh; 
+      margin: auto;    
+      display: block;
+      padding-top: 10%;
+    
+    }
+  #quote-exp{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    text-align: center;
+
+}
 
     #quote{
 
@@ -90,7 +176,7 @@
     }
     #subtitle{
       color: gray;
-      font-size: 2vh;;
+      font-size: 3vh;;
    }
    #subtitle-contact{
     color: gray;
@@ -150,7 +236,7 @@
     -o-transition:all .9s ease;
     -ms-transition:all .9s ease; 
     width: 100%;
-    height: 200px;
+    height: 250px;
   }
   #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
     opacity: 0.7;
@@ -204,6 +290,52 @@
     letter-spacing: 1px;
     color: #00acc1;
   }
+
+
+
+@keyframes blink {
+    from, to { color: transparent }
+    50% { color: rgba(245, 245, 245) }
+}
+
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+
+
+
+
 
 
   
