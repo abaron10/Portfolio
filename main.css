@@ -20,9 +20,13 @@ body {
     margin: auto;
     display: block;
     padding-top: 10%;
-
   }
-
+  .center-exp-2 {
+    width: 70vh;
+    margin: auto;
+    display: block;
+    padding-top: 3%;
+  }
   .typed::after {
     content: "|";
     font-size: 150%;
