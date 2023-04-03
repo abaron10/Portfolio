@@ -44,7 +44,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60vh;
+    width: 40vh;
 
     text-align: center;
   }
@@ -370,4 +370,81 @@ body {
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
   transform: translateY(-7px);
+}
+
+
+.scene {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 1000px;
+}
+
+.cube {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  animation: spin 10s linear infinite;
+}
+
+.front,
+.back,
+.right,
+.left,
+.top,
+.bottom {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+}
+
+.front {
+  transform: translateZ(150px);
+  background-image: url('images/rappi.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(150px);
+  background-image: url('images/meli.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(150px);
+  background-image: url('images/andes.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(150px);
+  background-image: url('images/serlefin.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(150px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(150px);
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }

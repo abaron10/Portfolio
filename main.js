@@ -18,8 +18,9 @@ function contact(){
 
 }
 
+
 let textLength = 0;
-let text = "Full Stack developer & Master in Software Engineering Student";
+let text = "Senior Software Engineer & Master in Software Engineering";
 
 function type() {
     let textChar = text.charAt(textLength++);
