@@ -30,7 +30,7 @@ function type() {
     if(textLength < text.length+1) {
         setTimeout('type()', 50);
     } else {
-        text = 'Senior Software Engineer & Master in Software Engineering Student';
+        text = 'Senior Software Engineer';
     }
 }
 
