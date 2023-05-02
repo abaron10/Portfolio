@@ -20,7 +20,7 @@ function contact(){
 
 
 let textLength = 0;
-let text = "Senior Software Engineer & Master in Software Engineering";
+let text = "Senior Software Engineer";
 
 function type() {
     let textChar = text.charAt(textLength++);
