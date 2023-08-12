@@ -119,6 +119,17 @@ body {
     ;
   }
 
+  #subtitle-certs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    color: gray;
+    font-size: 2vh;
+    ;
+  }
+
   #subtitle-contact {
     color: gray;
     font-size: 4vh;
