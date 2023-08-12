@@ -58,6 +58,15 @@ body {
     text-align: center;
   }
 
+  .comunity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vh;
+
+    text-align: center;
+  }
+
   .center-scrum {
     display: block;
     margin-left: auto;
@@ -96,6 +105,17 @@ body {
   #subtitle {
     color: gray;
     font-size: 4vh;
+    ;
+  }
+
+  #subtitle-articles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    color: gray;
+    font-size: 3vh;
     ;
   }
 

@@ -1,11 +1,15 @@
 function articles(){
-    window.location.href="https://af-baron10.medium.com/";
+    window.location.href="./articles.html";
 }
 function linkedin(){
     window.location.href="https://www.linkedin.com/in/andres-baron-sandoval-76ab96186/";
 }
 function git(){
     window.location.href="https://github.com/abaron10";
+}
+
+function main(){
+    window.location.href="./index.html";
 }
 
 function download(){
@@ -18,9 +22,8 @@ function contact(){
 
 }
 
-
 let textLength = 0;
-let text = "Senior Software Engineer";
+let text = "Architecting Dreams: A Journey Through the Code Realm with Andrés";
 
 function type() {
     let textChar = text.charAt(textLength++);
@@ -30,7 +33,7 @@ function type() {
     if(textLength < text.length+1) {
         setTimeout('type()', 50);
     } else {
-        text = 'Senior Software Engineer';
+        text = 'Coding Journeyman: Navigating the Software World as an Engineer';
     }
 }
 
