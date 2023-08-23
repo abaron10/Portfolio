@@ -1,6 +1,9 @@
 function articles(){
     window.location.href="./articles.html";
 }
+function hobbies(){
+    window.location.href="./hobbies.html";
+}
 function linkedin(){
     window.location.href="https://www.linkedin.com/in/andres-baron-sandoval-76ab96186/";
 }

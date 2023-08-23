@@ -58,6 +58,24 @@ body {
     text-align: center;
   }
 
+  .encenillo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vh;
+
+    text-align: center;
+  }
+
+  .center-dream-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vh;
+
+    text-align: center;
+  }
+
   .comunity {
     display: block;
     margin-left: auto;
